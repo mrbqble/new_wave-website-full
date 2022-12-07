@@ -1,0 +1,69 @@
+.reg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 12vh;
+}
+
+form {
+    display: flex;
+    align-self: center;
+    margin-bottom: 40px;
+    flex-direction: column;
+    padding: 30px 40px;
+    background-color: rgba(208, 213, 255, 0.5);
+}
+
+.forgot {
+    font-weight: 500;
+    color: grey;
+    text-align: center;
+}
+
+.dont {
+    margin-top: 30px;
+}
+
+.password {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    background-color: white;
+}
+
+.password input {
+    margin: 0px;
+}
+
+.password img {
+    width: 30px;
+    padding: 0px 10px;
+    margin-left: -3.5rem;
+}
+
+.req {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+}
+
+.warn {
+    color: red;
+}
+
+@media (max-width: 400px) {
+    form {
+        flex: 1;
+        padding: 15px;
+    }
+
+    .reg {
+        padding-top: 7.1vh;
+    }
+}

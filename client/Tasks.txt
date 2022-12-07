@@ -1,0 +1,25 @@
+Functions:
+1)  Sign up                             Done
+2)  Sign in                             Done
+3)  Profile                             Done
+4)  Documents                           Done half
+5)  Edit profile                        Done
+6)  Event declaration                   Done
+7)  Event uploader app                  Done
+8)  Creating of certificates            Done
+9)  Map with recycling points           Done
+10) Animations carousel/header          Done
+11) Verification of certificates        Done
+12) Registering to/leaving events       Done
+13) Rating of volunteers by hours       Done
+14) Reporting system for coordinators   Done
+15) Donating                            
+16) Adaptives                           
+17) Pagination                          
+18) Email sending                       
+19) Password recovery                   
+20) Recycling information               
+21) Attaching tasks to coordinators     
+22) Profile photo                       Done
+23) Change status of user               Done
+24) List of reports

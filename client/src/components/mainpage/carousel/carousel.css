@@ -1,0 +1,81 @@
+.eventinfo {
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.eventinfo h1 {
+    text-align: left;
+    margin-bottom: 0px;
+}
+
+.eventinfo p {
+    width: 32vw;
+}
+
+.container {
+    display: flex;
+    margin-left: 12.1vw;
+    align-items: center;
+}
+
+.text {
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.eventimages {
+    display: flex;
+    text-align: left;
+    margin-left: 10vw;
+    overflow-x: hidden;
+}
+
+.image {
+    width: 420px;
+    height: 420px;
+}
+
+.eventnumber {
+    font-size: 48px;
+    margin-bottom: 0px;
+    color: #D0D5FF;
+}
+
+.arr {
+    width: 12px;
+    height: 18px;
+}
+
+.eventimages .link {
+    margin-top: -4px;
+    border: #D0D5FF solid 1px;
+    padding: 15px 20px 15px 20px;
+}
+
+@media (max-width: 400px) {
+    .container {
+        flex-direction: column;
+        margin: 0px;
+    }
+
+    .eventinfo p {
+        width: 94vw;
+        font-size: 19px;
+    }
+
+    .eventinfo {
+        gap: 25px;
+    }
+
+    .eventimages {
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+
+    .image {
+        width: 89vw;
+        height: 89vw;
+    }
+}

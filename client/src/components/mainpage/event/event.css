@@ -1,0 +1,15 @@
+.list {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: rgba(208, 213, 255, 0.5);
+}
+
+.event .arr {
+    padding: 50px;
+}
+
+.swiper-wrapper {
+    max-width: 99.14vw;
+}

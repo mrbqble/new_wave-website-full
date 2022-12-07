@@ -1,0 +1,86 @@
+.full {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.full form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+    background-color: rgba(208, 213, 255, 0.5);
+    max-width: 55vw;
+}
+
+.full input {
+    margin-bottom: 30px;
+}
+
+form .button {
+    padding: 17px;
+    font-size: 20px;
+    text-align: center;
+}
+
+form .button:hover {
+    padding: 16px;
+}
+
+form p {
+    font-weight: 600;
+}
+
+select {
+    width: 444px;
+    font-size: 18px;
+    margin-top: 15px;
+    padding: 16px 20px;
+    margin-bottom: 30px;
+    -webkit-appearance: none;
+    background-position: calc(100% - 25px);
+    background-image: url("../../imgs/select.png");
+    background-size: 16px 10px;
+    background-repeat: no-repeat;
+}
+
+input {
+    width: 400px;
+    font-size: 18px;
+    margin-top: 15px;
+    padding: 15px 20px;
+    margin-bottom: 5px;
+}
+
+.full .field input {
+    margin-bottom: 5px;
+}
+
+.notListed {
+    position: absolute;
+    margin-left: -27.6rem;
+    margin-top: 17px;
+    width: 340px;
+    border: none;
+    z-index: 10;
+}
+
+.form {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 400px) {
+    input {
+        width: 70vw;
+    }
+
+    .full form {
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    select {
+        width: 91vw;
+    }
+}

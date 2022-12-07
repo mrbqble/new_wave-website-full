@@ -1,0 +1,66 @@
+.eventinfo .inf input {
+    margin: 0px;
+    width: 2.3vw;
+    text-align: right;
+}
+
+.report .eventinfo {
+    gap: 20px;
+}
+
+.data select {
+    margin: 0px;
+    width: 15vw;
+}
+
+th, td {
+    padding: 15px;
+    font-size: 18px;
+    border-bottom: 1px solid black;
+}
+
+th {
+    font-weight: 500;
+    color: #0013BC;
+    text-align: left;
+}
+
+table {
+    border-collapse: collapse;
+    background-color: rgba(208, 213, 255, 0.5);
+}
+
+.eventinfo .data {
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media (max-width: 400px) {
+
+    th, td {
+        padding: 15px;
+        font-size: 16px;
+    }
+
+    .report {
+        flex-direction: column-reverse;
+    }
+
+    .data select {
+        width: 60vw;
+    }
+
+    .eventinfo .inf input {
+        width: 16vw;
+        padding: 15px 10px;
+    }
+
+    .search {
+        width: auto;
+        flex: 1;
+    }
+
+    .eventinfo .data {
+        justify-content: space-between;
+    }
+}

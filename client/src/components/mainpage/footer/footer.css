@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    margin: 40px 0px 40px 0px;
+    justify-content: space-evenly;
+}
+
+ul {
+    list-style-type: none;
+    width: 11vw;
+}
+
+.last img {
+    height: 45px;
+    margin-right: 10px;
+}
+
+li {
+    font-size: 18px;
+    margin-top: 12px;
+}
+
+@media (max-width: 400px) {
+    .footer {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    ul {
+        width: 40vw
+    }
+
+    li {
+        font-size: 16px;
+    }
+}

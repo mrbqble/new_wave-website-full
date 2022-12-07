@@ -1,0 +1,96 @@
+.data {
+    gap: 60px;
+    display: flex;
+    font-size: 18px;
+    font-weight: 500;
+    flex-direction: row;
+}
+
+.inf {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.one {
+    flex-direction: row;
+}
+
+.two {
+    flex-direction: column;
+    margin-right: 0px;
+    justify-content: center;
+}
+
+.btn {
+    padding: 15px;
+    font-size: 16px;
+    font-weight: 500;
+    border: 1px solid;
+    text-align: center;
+}
+
+.cert {
+    color: white;
+    background-color: #0013BC;
+}
+
+.cert:hover {
+    color: #0013BC;
+    background-color: white;
+} 
+
+.join {
+    color: #0013BC;
+    border-color: #0013BC;
+}
+
+.join:hover {
+    border-color: #D0D5FF;
+}
+
+.frame img {
+    height: 300px;
+}
+
+.frame {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    width: 300px;
+}
+
+.photo {
+    position: absolute;
+    z-index: 2;
+    padding: 0px;
+    margin: 0px;
+    width: 300px;
+    height: 300px;
+    opacity: 0;
+}
+
+@media (max-width: 400px) {
+    .one {
+        flex-direction: column;
+    }
+
+    .reg h1 {
+        margin-bottom: 30px;
+    }
+
+    .data {
+        gap: 30px;
+        margin-right: 0px;
+    }
+
+    .inf {
+        gap: 15px;
+    }
+
+    .two {
+        flex-direction: column;
+        margin-right: 0px;
+    }
+}

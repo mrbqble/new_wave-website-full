@@ -1,0 +1,31 @@
+.year {
+    color: #D0D5FF;
+    font-weight: bolder;
+    font-size: 150px;
+}
+
+.docs {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.fin {
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 400px) {
+    .year {
+        font-size: 100px;
+    }
+
+    .fin {
+        gap: 0px;
+        flex-direction: column;
+    }
+}

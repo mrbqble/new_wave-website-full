@@ -1,0 +1,22 @@
+textarea {
+    width: 402px;
+    font-size: 18px;
+    padding: 15px 20px;
+    margin: 15px 0px 5px;
+    resize: none;
+}
+
+form table .btn {
+    padding: 0px;
+    border: none;
+}
+
+form table {
+    margin-top: 15px;
+}
+
+.duration {
+    width: 444px;
+    margin: 15px 0px;
+    color: #0013BC;
+}
