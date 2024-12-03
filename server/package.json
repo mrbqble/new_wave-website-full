@@ -17,7 +17,7 @@
     "jsonwebtoken": "^9.0.0",
     "jspdf": "^2.5.1",
     "jwt-decode": "^3.1.2",
-    "mongoose": "^6.4.4",
+    "mongoose": "^8.8.3",
     "nodemon": "^2.0.19",
     "pdf-to-base64": "^1.0.3"
   }
